@@ -11,7 +11,7 @@ import SwiftUI
 struct SlenderRowApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(squaresCount: 7)
         }
     }
 }
